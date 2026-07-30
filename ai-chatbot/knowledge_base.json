@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "good afternoon",
+        "good evening", "what's up", "howdy", "greetings", "sup"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to see you. How can I assist?",
+        "Greetings! I'm here to help."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see ya", "take care",
+        "later", "farewell", "good night", "quit", "exit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to come back anytime.",
+        "Farewell! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "appreciate it", "thanks a lot",
+        "thank you so much", "cheers", "thx"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Feel free to ask more questions.",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you", "what are you", "tell me about yourself",
+        "what can you do", "what is your purpose", "what do you do",
+        "introduce yourself", "your name"
+      ],
+      "responses": [
+        "I'm an AI chatbot built with Python! I use TF-IDF and cosine similarity to understand your questions and provide helpful responses.",
+        "I'm a smart chatbot powered by NLP techniques. I can answer questions, have conversations, and help you learn about AI!",
+        "I'm an AI assistant. I match your questions to my knowledge base using text similarity algorithms."
+      ]
+    },
+    {
+      "tag": "ai_info",
+      "patterns": [
+        "what is artificial intelligence", "explain AI", "define AI",
+        "what is AI", "tell me about artificial intelligence",
+        "how does AI work", "what is machine learning"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is the simulation of human intelligence by machines. It includes learning, reasoning, problem-solving, perception, and language understanding.",
+        "AI is a branch of computer science focused on building systems that can perform tasks typically requiring human intelligence, such as visual perception, speech recognition, and decision-making.",
+        "Machine Learning is a subset of AI where systems learn from data to improve their performance without being explicitly programmed."
+      ]
+    },
+    {
+      "tag": "python_info",
+      "patterns": [
+        "what is python", "tell me about python", "why python for AI",
+        "python programming", "python language", "is python good for AI"
+      ],
+      "responses": [
+        "Python is a high-level, interpreted programming language known for its simplicity and readability. It's the most popular language for AI and data science thanks to libraries like TensorFlow, PyTorch, and scikit-learn.",
+        "Python is widely used in AI because of its rich ecosystem of libraries, strong community support, and ease of learning. It's great for prototyping and production.",
+        "Python excels in AI development due to libraries like NumPy, Pandas, scikit-learn, TensorFlow, and PyTorch that make complex tasks straightforward."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "what is deep learning", "explain deep learning",
+        "neural networks", "what are neural networks",
+        "how do neural networks work", "CNN", "RNN"
+      ],
+      "responses": [
+        "Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns in data. It powers technologies like image recognition, speech synthesis, and language translation.",
+        "Neural networks are computing systems inspired by biological neural networks in the brain. They consist of layers of interconnected nodes that process information and learn from data.",
+        "Deep Learning uses architectures like CNNs (Convolutional Neural Networks) for images, RNNs (Recurrent Neural Networks) for sequences, and Transformers for language tasks."
+      ]
+    },
+    {
+      "tag": "nlp_info",
+      "patterns": [
+        "what is NLP", "natural language processing",
+        "explain NLP", "text processing", "language AI",
+        "how do chatbots understand language"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a field of AI focused on the interaction between computers and human language. It enables machines to read, understand, and generate human text.",
+        "NLP combines linguistics and computer science to process and analyze natural language data. Common tasks include sentiment analysis, translation, summarization, and chatbot development.",
+        "Chatbots use NLP techniques like tokenization, intent classification, and entity recognition to understand what you're saying and generate appropriate responses."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "what projects are here", "list projects", "show me projects",
+        "what can I find in this repo", "available projects",
+        "what examples do you have"
+      ],
+      "responses": [
+        "This repository contains several AI projects:\n1. 🤖 AI Chatbot (this one!)\n2. 👁️ Computer Vision - Image classification\n3. 🧠 Deep Learning - MNIST digit recognition\n4. ✨ Generative AI - Text generation\n5. 📚 LLM - Language model experiments\n6. 📊 Machine Learning - Classification pipelines\n7. 📝 NLP - Text processing toolkit",
+        "We have projects covering: AI Chatbot, Computer Vision, Deep Learning, Generative AI, LLM, Machine Learning, and NLP. Each one is a complete, runnable Python project!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "help me", "I need help", "can you help",
+        "assist me", "support", "how to use", "instructions"
+      ],
+      "responses": [
+        "I'm here to help! You can ask me about:\n- AI concepts (machine learning, deep learning, NLP)\n- Python programming\n- Projects in this repository\n- Or just have a casual chat!",
+        "Sure! Just type your question and I'll do my best to answer. I know about AI, Python, and the projects in this repository."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke", "joke", "make me laugh",
+        "say something funny", "humor", "funny"
+      ],
+      "responses": [
+        "Why did the neural network go to therapy? It had too many deep issues! 😄",
+        "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
+        "What's a computer's favorite snack? Microchips! 🍟",
+        "Why was the AI so good at music? It had great training data! 🎵"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather", "weather today", "is it raining",
+        "temperature", "forecast", "how's the weather"
+      ],
+      "responses": [
+        "I'm a text-based AI chatbot, so I can't check the weather for you. But I can help with AI and programming questions!",
+        "I don't have access to weather data, but I'm great at answering questions about AI, Python, and machine learning!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you", "your age", "when were you created",
+        "when were you born", "your birthday"
+      ],
+      "responses": [
+        "I'm a Python program, so I don't really have an age! I was created as part of the ai-projects repository.",
+        "Age is just a number, and for me, it's the number of seconds since my process started! 😄"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who made you", "who created you", "who built you",
+        "your creator", "your developer", "who is your author"
+      ],
+      "responses": [
+        "I was built as part of the ai-projects repository to demonstrate NLP and chatbot concepts using Python!",
+        "I was created by a developer passionate about AI and Python. I'm an open-source project you can extend and customize!"
+      ]
+    }
+  ]
+}
